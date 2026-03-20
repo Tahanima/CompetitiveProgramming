@@ -28,7 +28,7 @@ void preprocess() {
     int n = primes.size();
     diff_count = vector<int>(primes.size(), 0);
 
-    for (int i = 0; i < n - 1; ) {
+    for (int i = 0; i < n - 1;) {
         int dc = 1;
         int diff = primes[i + 1] - primes[i];
         for (int j = i + 2; j < n && (primes[j] - primes[j - 1]) == diff; dc++, j++);
@@ -57,7 +57,7 @@ int main() {
         int i = lower_bound(primes.begin(), primes.end(), x) - primes.begin();
         int j = upper_bound(primes.begin(), primes.end(), y) - primes.begin();
 
-        for (int k = i; k < j; ) {
+        for (int k = i; k < j;) {
             if (diff_count[k] >= 2) {
                 if (k + diff_count[k] < j) {
                     for (int l = k; l <= k + diff_count[k]; l++) {

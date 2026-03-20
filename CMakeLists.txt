@@ -12,4 +12,8 @@ add_executable(CompetitiveProgramming
         UVa/914/main.cpp
         UVa/1644/main.cpp
         UVa/10650/main.cpp
-        UVa/10311/main.cpp)
+        UVa/10311/main.cpp
+        UVa/897/main.cpp
+        UVa/11057/main.cpp
+        UVa/10611/main.cpp
+        UVa/10474/main.cpp)

@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-const int MAX = 1e6  + 1;
+const int MAX = 1e6 + 1;
 bool p[MAX];
 vector<int> primes;
 

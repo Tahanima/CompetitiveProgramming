@@ -30,7 +30,7 @@ int main() {
     int n, c;
     preprocess();
 
-    while(scanf("%d %d", &n, &c) == 2) {
+    while (scanf("%d %d", &n, &c) == 2) {
         int num_of_primes = prime_count[n];
         int primes_to_print = (num_of_primes % 2) == 0 ? 2 * c : 2 * c - 1;
 

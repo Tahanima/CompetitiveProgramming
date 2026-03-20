@@ -13,7 +13,6 @@ void preprocess() {
 
     for (int i = 3; i * i < MAXN; i += 2) {
         if (prime[i] == true) {
-
             for (int j = i * i; j < MAXN; j += i + i) {
                 prime[j] = false;
             }
